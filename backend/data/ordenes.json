@@ -1,0 +1,15 @@
+[
+  {
+    "nombre": "Elver Gonzalez",
+    "telefono": "89092522",
+    "direccion": "Tuzan",
+    "metodoPago": "efectivo",
+    "total": 15,
+    "pizzas": [
+      {
+        "tipo": "Pizza Vegetariana",
+        "cantidad": 1
+      }
+    ]
+  }
+]

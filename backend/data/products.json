@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pizza Vegetariana",
+        "precio": 15,
+        "imagen": "assets/img/product-1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Pizza Pepperoni",
+        "precio": 10,
+        "imagen": "assets/img/product-2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Pizza Margarita",
+        "precio": 12,
+        "imagen": "assets/img/product-3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Pizza de Champiñones",
+        "precio": 11,
+        "imagen": "assets/img/product-4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Pizza Italiana",
+        "precio": 14,
+        "imagen": "assets/img/product-5.png"
+    }
+]

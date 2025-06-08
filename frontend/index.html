@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Disfruta las mejores pizzas artesanales hechas con ingredientes frescos. Pide online y saborea el verdadero sabor.">
+
+   <!--=============== ICONO DE FAVORITO ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== ÍCONOS DE REMIX ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+
+   <!--=============== CSS DE SWIPER ===============-->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/estilos.css">
+
+   <title>Sitio web de pizza adaptable</title>
+</head>
+
+<body>
+   <!--==================== ENCABEZADO ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <img src="assets/img/logo-pizza.svg" alt="image">
+            Pizza
+         </a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="#home" class="nav__link">Inicio</a></li>
+               <li><a href="#about" class="nav__link">Sobre Nosotros</a></li>
+               <li><a href="#popular" class="nav__link">Popular</a></li>
+               <li><a href="#products" class="nav__link">Productos</a></li>
+               <li><a href="#contact" class="nav__link">Contacto</a></li>
+            </ul>
+
+            <!------ Botón de cierre --------->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-circle-line"></i>
+            </div>
+         </div>
+
+         <!------ Botón de alternancia  ------->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+         </div>
+
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== INICIO ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">La Mejor Pizza de la Ciudad</h1>
+               <p class="home__description">Descubre nuestras deliciosas pizzas elaboradas con ingredientes frescos y
+                  mucho buen sabor.
+               </p>
+               <a href="#products" class="button">Pide Pizza Ahora</a>
+
+               <img src="assets/img/sticker-pizza.svg" alt="image" class="home__sticker-1">
+               <img src="assets/img/sticker-leaf.svg" alt="image" class="home__sticker-2">
+            </div>
+
+            <div class="home__images">
+               <img src="assets/img/home-pizza.png" alt="image" class="home__pizza">
+               <img src="assets/img/home-board.png" alt="image" class="home__board">
+
+
+               <img src="assets/img/home-leaf-1.png" alt="image" class="home__ingredient home__leaf-1">
+               <img src="assets/img/home-leaf-2.png" alt="image" class="home__ingredient home__leaf-2">
+               <img src="assets/img/home-pepperoni.png" alt="image" class="home__ingredient home__pepperoni">
+               <img src="assets/img/home-mushroom.png" alt="image" class="home__ingredient home__mushroom">
+               <img src="assets/img/home-olive.png" alt="image" class="home__ingredient home__olive">
+               <img src="assets/img/home-tomato.png" alt="image" class="home__ingredient home__tomato">
+
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ACERCA DE ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <div class="about__data">
+               <h2 class="section__title">Sobre Nosotros <br> Nuestra Historia </h2>
+
+               <p class="about__description">Desde 2015, nuestra pizzería ha estado sirviendo a la comunidad con las
+                  mejores pizzas hechas a mano. Utilizamos ingredientes frescos y recetas tradicionales para ofrecerte
+                  una experiencia única en cada bocado.
+               </p>
+
+               <a href="#popular" class="button"> Las Mejores Pizzas </a>
+
+               <img src="assets/img/sticker-cheese.svg" alt="image" class="about__sticker">
+            </div>
+
+            <img src="assets/img/about-img.png" alt="image" class="about__img">
+         </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+         <div class="popular__container container grid">
+            <div class="popular__data">
+               <h2 class="section__title"> Descubra <br> los Pedidos Populares </h2>
+
+               <p class="popular__description">Elige entre los pedidos populares y más deliciosos. Nuestras pizzas se
+                  elaboran con dedicación y un toque
+                  especial de sabor, para que disfrutes de una comida perfecta. Un mundo de opciones te espera para que
+                  elijas tu
+                  favorita.
+               </p>
+            </div>
+
+            <div class="popular__swiper swiper">
+               <img src="assets/img/popular-dish.png" alt="image" class="popular__dish">
+
+               <div class="swiper-wrapper">
+                  <article class="popular__card swiper-slide">
+                     <img src="assets/img/popular-1.png" alt="image" class="popular__img">
+                     <h3 class="popular__title">Pizza Margarita</h3>
+                  </article>
+
+                  <article class="popular__card swiper-slide">
+                     <img src="assets/img/popular-2.png" alt="image" class="popular__img">
+                     <h3 class="popular__title">Pizza de Champiñones</h3>
+                  </article>
+                  <article class="popular__card swiper-slide">
+                     <img src="assets/img/popular-3.png" alt="image" class="popular__img">
+                     <h3 class="popular__title">Pizza Pepperoni</h3>
+                  </article>
+               </div>
+            </div>
+
+
+         </div>
+      </section>
+
+      <!--==================== RECETA ====================-->
+      <section class="recipe section">
+         <h2 class="section__title">Ingredientes Frescos <br>Y Naturales</h2>
+
+         <div class="recipe__container container grid">
+            <div class="recipe__list grid">
+               <div class="recipe__ingredient">
+                  <img src="assets/img/recipe-flour.png" alt="image" class="recipe__image">
+
+                  <div>
+                     <h3 class="recipe__name">Harina</h3>
+                     <p class="recipe__description">
+                        La base de nuestra masa, hecha con harina de alta calidad para una textura perfecta.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="recipe__ingredient">
+                  <img src="assets/img/recipe-cheese.png" alt="image" class="recipe__image">
+
+                  <div>
+                     <h3 class="recipe__name">Queso</h3>
+                     <p class="recipe__description">
+                        Queso fresco y derretido, el ingrediente estrella que le da sabor a nuestras pizzas.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="recipe__ingredient">
+                  <img src="assets/img/recipe-sauces.png" alt="image" class="recipe__image">
+
+                  <div>
+                     <h3 class="recipe__name">Salsas</h3>
+                     <p class="recipe__description">
+                        Salsas caseras elaboradas con tomates frescos y especias, que realzan el sabor de cada pizza.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="recipe__ingredient">
+                  <img src="assets/img/recipe-tomato.png" alt="image" class="recipe__image">
+
+                  <div>
+                     <h3 class="recipe__name">Verduras</h3>
+                     <p class="recipe__description">
+                        Verduras frescas y crujientes, como pimientos, cebollas y tomates que aportan frescura y color a
+                        nuestras
+                        pizzas.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="recipe__ingredient">
+                  <img src="assets/img/recipe-meat.png" alt="image" class="recipe__image">
+
+                  <div>
+                     <h3 class="recipe__name">Carnes</h3>
+                     <p class="recipe__description">
+                        Carnes seleccionadas, como pepperoni, jamón y salchicha, que añaden un sabor irresistible a
+                        nuestras pizzas.
+                     </p>
+                  </div>
+               </div>
+            </div>
+
+            <img src="assets/img/recipe-img.png" alt="image" class="recipe__img">
+         </div>
+      </section>
+
+      <!--==================== PRODUCTOS ====================-->
+      <section class="products section" id="products">
+         <h2 class="section__title">Las Pizzas <br> Mas Devoradas</h2>
+
+         <div class="products__container container grid" id="products-container">
+            <article class="products__card">
+               <img src="assets/img/product-1.png" alt="image" class="products__img">
+               <h3 class="products__name">Pizza <br>Pepperoni</h3>
+               <span class="products__price">$10</span>
+
+               <button class="products__button" aria-label="Ordenar">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+
+            <article class="products__card">
+               <img src="assets/img/product-3.png" alt="image" class="products__img">
+
+               <h3 class="products__name">Pizza <br>Margarita</h3>
+               <span class="products__price">$12</span>
+
+               <button class="products__button" aria-label="Ordenar">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+
+            <article class="products__card">
+               <img src="assets/img/product-4.png" alt="image" class="products__img">
+
+               <h3 class="products__name">Pizza <br>de Champiñones </h3>
+               <span class="products__price">$11</span>
+
+               <button type="button" class="products__button" aria-label="Ordenar">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+
+            <article class="products__card">
+               <img src="assets/img/product-5.png" alt="image" class="products__img">
+
+               <h3 class="products__name">Pizza <br>Italina</h3>
+               <span class="products__price">$14</span>
+
+               <button type="button" class="products__button" aria-label="Ordenar">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== CONTACTO ====================-->
+      <section class="contact section" id="contact">
+         <div class="contact__container container grid">
+            <div class="contact__data">
+               <h2 class="section__title">Contáctanos ahora</h2>
+
+               <div class="contact__info grid">
+                  <div>
+                     <h3 class="contact__title">Escríbanos</h3>
+                     <div class="contact__social">
+                        <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!"
+                           target="_blank" rel="noopener" class="contact__social-link">
+                           <i class="ri-whatsapp-fill"></i>
+                           <span class="visually-hidden"></span>
+                        </a>
+                        <a href="https://m.me/bedimcode" target="_blank" rel="noopener" class="contact__social-link">
+                           <i class="ri-messenger-fill"></i>
+                        </a>
+                        <a href="https://t.me/telegram" target="_blank" rel="noopener" class="contact__social-link">
+                           <i class="ri-telegram-2-fill"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <div>
+                     <h3 class="contact__title">Entrega</h3>
+
+                     <address class="contact__address">
+                        +505 1234-5678 <br>
+                        +505 9876-5432
+                     </address>
+                  </div>
+
+                  <div>
+                     <h3 class="contact__title">Ubicación</h3>
+
+                     <address class="contact__address">
+                        Calle Principal, Ciudad <br>
+                        Nueva Guinea.
+                     </address>
+
+                     <a href="https://maps.app.goo.gl/NzCpZwV35cZQaQa18" target="_blank" rel="noopener"
+                        class="contact__map">
+                        <i class="ri-map-pin-fill"></i>
+                        <span>Ver Mapa</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="contact__image">
+               <img src="assets/img/contacto-propio.png" alt="image" class="contact__img">
+            </div>
+
+            <img src="assets/img/sticker-tomato.svg" alt="image" class="contact__sticker-1">
+            <img src="assets/img/sticker-mushroom.svg" alt="image" class="contact__sticker-2">
+            <img src="assets/img/sticker-onion.svg" alt="image" class="contact__sticker-3">
+            <img src="assets/img/stickers-de-pizza.png" alt="image" class="contact__sticker-4">
+         </div>
+      </section>
+   </main>
+
+   <!--==================== PIE DE PÁGINA ====================-->
+   <footer class="footer">
+      <div class="footer__container container">
+         <a href="#" class="nav__logo-2">
+            <img src="assets/img/pizza-logo-2.svg" alt="image" class="nav__logo-img">
+            Pizzas el Vergón</a>
+
+         <div class="footer__grid">
+            <!-- Columna 1: Social -->
+            <div class="footer__column">
+               <h3 class="footer__title">Redes Sociales</h3>
+               <div class="footer__social">
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="footer__social-link">
+                     <i class="ri-facebook-circle-fill"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="footer__social-link">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+                  <a href="https://twitter.com/" target="_blank" rel="noopener" class="footer__social-link">
+                     <i class="ri-twitter-x-fill"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/" target="_blank" rel="noopener" class="footer__social-link">
+                     <i class="ri-tiktok-fill"></i> </a>
+               </div>
+            </div>
+
+            <!-- Columna 2: Suscripción -->
+            <div class="footer__column">
+               <h3 class="footer__title">Suscríbete</h3>
+               <form action="#" class="footer__form" id="form-suscripcion">
+                  <input type="email" id="correo-suscripcion" placeholder="Tu correo electrónico" class="footer__input"
+                     required>
+                  <button type="submit" class="footer__button">Suscribirse</button>
+               </form>
+               <p class="footer__mensaje" id="mensaje-suscripcion"></p>
+            </div>
+
+
+
+            <!-- Columna 3: Métodos de pago -->
+            <div class="footer__column">
+               <h3 class="footer__title">Métodos de pago</h3>
+               <div class="footer__pay">
+                  <img src="assets/img/footer-card-1.png" alt="Visa" class="footer__pay-img">
+                  <img src="assets/img/footer-card-2.png" alt="MasterCard" class="footer__pay-img">
+                  <img src="assets/img/footer-card-3.png" alt="PayPal" class="footer__pay-img">
+                  <img src="assets/img/footer-card-4.png" alt="Stripe" class="footer__pay-img">
+               </div>
+            </div>
+         </div>
+
+         <!-- Línea inferior: políticas -->
+         <div class="footer__bottom">
+            <div class="footer__policy">
+               <a href="terminos.html#terminos" class="footer__link" rel="noopener">
+                  Términos y condiciones</a>
+
+               <a href="terminos.html#privacidad" class="footer__link" rel="noopener">
+                  Política de Privacidad</a>
+            </div>
+            <span class="footer__copy">&copy; 2025 Pizza. Todos los derechos reservados.</span>
+         </div>
+      </div>
+   </footer>
+
+   <!--========== DESPLAZARSE HACIA ARRIBA ==========-->
+   <a href="#" class="scrollup" id="scroll-up" title="Volver arriba">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== ANIMACIONES DE REVELADO AL HACER SCROLL ===============-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== Carrusel táctil con Swiper JS ===============-->
+   <script src="assets/js/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+
+   <!--==================== FORMULARIO DE PEDIDO ====================-->
+   <div class="order-form-container" id="order-form">
+      <div class="order-form">
+         <h2>Realizar Pedido</h2>
+         <form id="formulario-pedido">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+   
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+   
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+   
+            <!-- Lista dinámica de pizzas -->
+            <div id="lista-pizzas">
+               <!-- Se agregan líneas de pizza dinámicamente -->
+            </div>
+   
+            <button type="button" id="agregar-pizza">+ Añadir otra pizza</button>
+   
+            <p><strong>Total a pagar:</strong> <span id="total-pago">$ 0.00</span> USD</p>
+   
+            <!-- MÉTODOS DE PAGO -->
+            <label for="metodo-pago">Método de Pago:</label>
+            <select id="metodo-pago" name="metodo-pago" required>
+               <option value="" disabled selected>Selecciona un método</option>
+               <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+               <option value="paypal">PayPal</option>
+               <option value="efectivo">Efectivo</option>
+            </select>
+   
+            <!-- Sección visual según método -->
+            <div id="detalles-pago">
+               <!-- Campos se mostrarán dinámicamente aquí -->
+            </div>
+   
+            <div class="form-buttons">
+               <button type="submit">Confirmar Pedido</button>
+               <button type="button" id="cerrar-formulario">Cancelar</button>
+            </div>
+         </form>
+      </div>
+   </div>
+
+</body>
+
+</html>
