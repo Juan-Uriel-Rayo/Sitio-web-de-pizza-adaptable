@@ -71,6 +71,30 @@ Abre el archivo `frontend/index.html` en tu navegador o usa una extensión como 
   - Botón de scroll hacia arriba
   - Activación de enlaces por sección
 
+## 📌 Créditos y Reconocimientos
+
+Este proyecto está basado en una plantilla inicial proporcionada por **Bedimcode**, como parte de uno de sus cursos.  
+Yo, **Juan Uriel Rayo**, realicé modificaciones significativas a dicho proyecto, incluyendo:
+
+- Cambios en el diseño visual (colores, estilos).
+- Integración de un backend funcional con Node.js.
+- Implementación de un formulario de pedidos en el frontend.
+- Añadí funcionalidades al frontend como:
+  - Formulario para realizar pedidos.
+  - Vista de Términos y Condiciones.
+  - Registro de usuarios mediante correo electrónico.
+- Inclusión de métodos de pago.
+- Personalización de imágenes de productos y contenido general.
+
+⚠️ Algunas imágenes originales del curso de Bedimcode se mantienen en el repositorio solo con fines educativos y de demostración. No reclamo autoría sobre esas imágenes ni sobre la estructura inicial del frontend.
+
+❗ **Uso Comercial:**  
+Este proyecto fue modificado con fines de práctica, tareas universitarias o aprendizaje personal.  
+Si se desea emplear este proyecto para **uso comercial**, se debe tener en cuenta y respetar la licencia original del creador de la plantilla, **Bedimcode**, así como contactarme a mí para negociar el uso de las modificaciones que realicé.  
+El uso comercial sin la debida autorización no está permitido.
+
+Gracias por entender y respetar estos términos.
+
 ## ✉️ Contacto
 
 Desarrollado por **Juan Uriel Rayo**  
